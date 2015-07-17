@@ -1,0 +1,166 @@
+@import url('bootstrap/css/bootstrap.css');
+
+@import "_patrials/variables";
+@import "_patrials/mixins";
+@import "_patrials/typography";
+
+@font-face {
+  font-family: ec-font;
+  src: url('http://eco-greece.com/fonts/FUTURAL.TTF');
+}
+
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+body:after {
+  display: none;
+  content: url('#{$bear-img-over}')
+  url('#{$bridge-img-over}')
+  url('#{$couple-img-over}')
+  url('#{$bird-img-over}');
+}
+
+/* some bootstrap fixes */
+
+p {
+  display: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+/* Text styling */
+
+.ec-textOnImage {
+  position: relative;
+  opacity: 1;
+  font-family: ec-font;
+  color: #fff;
+  font-size: 2.85em;
+}
+
+.ec-titleText {
+  text-align: center;
+  font-family: ec-font;
+}
+
+.ec-menuText {
+  font-family: ec-font;
+  color: #000;
+  font-size: 1.87em;
+}
+
+/* Line effect on images */
+
+.ec-line, .ec-line2, .ec-line3, .ec-line4 {
+  display: inline-block;
+  width: 300px;
+  color: #000;
+  -webkit-transition: width 0.4s; /* Safari */
+  transition: width 0.4s;
+  transition: all 0.4s ease;
+}
+.ec-line br {
+  display: none;
+}
+.ec-line2 br {
+  display: none;
+}
+.ec-line3 br {
+  display: none;
+}
+.ec-line4 br {
+  display: none;
+}
+
+.ec-line.ec-hover, .ec-line2.ec-hover, .ec-line3.ec-hover, .ec-line4.ec-hover {
+  width: 240px;
+}
+
+.ec-pageLoader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url('#{$page-loader-img}') 50% 50% no-repeat #fff;
+}
+
+/* footer */
+
+.ec-footer {
+  font-size: 12px;
+  text-align: center;
+  font-family: ec-font;
+}
+
+/* Image holder styling */
+
+.ec-imageHolder {
+  position: relative;
+  text-align: center;
+  padding: 180px 0 100px 0;
+  cursor: pointer;
+}
+
+.ec-imageHolder.img1 {
+  background: url('#{$bear-img}') no-repeat;
+  background-size: $bg-size;
+  height: $bg-height;
+  background-position: $bg-position;
+  @include transition(0.4s);
+}
+.ec-imageHolder.img2 {
+  background: url('#{$bridge-img}') no-repeat;
+  background-size: $bg-size;
+  height: $bg-height;
+  background-position: $bg-position;
+  @include transition(0.4s);
+}
+.ec-imageHolder.img3 {
+  background: url('#{$couple-img}') no-repeat;
+  background-size: $bg-size;
+  height: $bg-height;
+  background-position: $bg-position;
+  @include transition(0.4s);
+}
+.ec-imageHolder.img4 {
+  background: url('#{$bird-img}') no-repeat;
+  background-size: $bg-size;
+  height: $bg-height;
+  background-position: $bg-position;
+  @include transition(0.4s);
+}
+
+.ec-imageHolder.img1:hover {
+  background: url('#{$bear-img-over}') no-repeat;
+  background-position: $bg-position;
+  background-size: $bg-size;
+  @include transition(0.4s);
+}
+.ec-imageHolder.img2:hover {
+  background: url('#{$bridge-img-over}') no-repeat;
+  background-position: $bg-position;
+  background-size: $bg-size;
+  @include transition(0.4s);
+}
+.ec-imageHolder.img3:hover {
+  background: url('#{$couple-img-over}') no-repeat;
+  background-position: $bg-position;
+  background-size: $bg-size;
+  @include transition(0.4s);
+}
+.ec-imageHolder.img4:hover {
+  background: url('#{$bird-img-over}') no-repeat;
+  background-position: $bg-position;
+  background-size: $bg-size;
+  @include transition(0.4s);
+}
