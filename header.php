@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <!-- Le styles -->
     <link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script type="text/javascript" src="http://eco-greece.com/wp-content/themes/ecotheme/ec-script.js"></script>
+    <script src="http://eco-greece.com/js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="http://eco-greece.com/js/ec-script.js"></script>
     <script type="text/javascript">
     $(window).load(function() {
     $(".ec-pageLoader").fadeOut("slow");
@@ -46,12 +46,25 @@
                   </div>
           </nav>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-1">
+      </div>
+      <div class="col-md-2">
         <div class="page-header">
           <h1 class="ec-titleText">ECO GREECE</h1>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-1">
+      </div>
+      <div class="col-md-1">
+      </div>
+      <div class="col-md-1">
+      </div>
+      <div class="col-md-1">
+      </div>
+      <div class="col-md-1 hidden-sm hidden-xs">
+              <i class="fa fa-pinterest-p fa-lg ec-socialicons"></i>
+              <i class="fa fa-facebook-official fa-lg ec-socialicons"></i>
+              <i class="fa fa-twitter fa-lg ec-socialicons"></i>
       </div>
       <div class="ec-pageLoader"></div>
       <div class="container-fluid">
