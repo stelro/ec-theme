@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <title>eco Greece</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/ico" href="http://localhost/eco-greece/favicon.ico"/>
+    <link rel="icon" type="image/ico" href="http://eco-greece.com/img/favicon.ico"/>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <!-- Le styles -->
     <link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
@@ -28,7 +28,6 @@
               <div class="container">
                   <div class="navbar-header">
                       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                          <span class="sr-only">Toggle navigation</span>
                           <span class="icon-bar"></span>
                           <span class="icon-bar"></span>
                           <span class="icon-bar"></span>
@@ -37,11 +36,11 @@
                   <!-- Collect the nav links, forms, and other content for toggling -->
                   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                       <ul class="nav navbar-nav">
-                          <li><a href="#"><span class="ec-footer">home</span></a></li>
-                          <li><a href="#"><span class="ec-footer">bear tracking</span></a></li>
-                          <li><a href="#"><span class="ec-footer">walking</span></a></li>
-                          <li><a href="#"><span class="ec-footer">marine tour</span></a></li>
-                          <li><a href="#"><span class="ec-footer">birds watching</span></a></li>
+                          <li><a href="#"><span class="ec-menuText">home</span></a></li>
+                          <li><a href="#"><span class="ec-menuText">bear tracking</span></a></li>
+                          <li><a href="#"><span class="ec-menuText">walking</span></a></li>
+                          <li><a href="#"><span class="ec-menuText">marine tour</span></a></li>
+                          <li><a href="#"><span class="ec-menuText">birds watching</span></a></li>
                       </ul>
                   </div>
           </nav>
@@ -62,9 +61,12 @@
       <div class="col-md-1">
       </div>
       <div class="col-md-1 hidden-sm hidden-xs">
-              <i class="fa fa-pinterest-p fa-lg ec-socialicons"></i>
-              <i class="fa fa-facebook-official fa-lg ec-socialicons"></i>
-              <i class="fa fa-twitter fa-lg ec-socialicons"></i>
+          <a href="#">
+              <i class="fa fa-pinterest-p fa-lg ec-socIcons"></i> </a>
+          <a href="#">
+              <i class="fa fa-facebook-official fa-lg ec-socIcons"></i> </a>
+          <a href="#">
+              <i class="fa fa-twitter fa-lg ec-socIcons"></i> </a>
       </div>
       <div class="ec-pageLoader"></div>
       <div class="container-fluid">

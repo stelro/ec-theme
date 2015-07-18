@@ -28,12 +28,29 @@ p {
   display: none;
 }
 
+a {
+  text-decoration: none;
+  color: #222222;
+}
+
 a:link {
   text-decoration: none;
+  color: #222222;
 }
 
 a:visited {
   text-decoration: none;
+  color: #222222;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #222222;
+}
+
+a:active {
+  text-decoration: none;
+  color: #222222;
 }
 
 /* Text styling */
@@ -54,9 +71,14 @@ a:visited {
 .ec-menuText {
   font-family: ec-font;
   color: #000;
-  font-size: 1.87em;
+  font-size: 1em;
+  @include transition(0.2s);
 }
 
+.ec-menuText:hover {
+  color: #555555;
+  @include transition(0.2s);
+}
 /* Line effect on images */
 
 .ec-line, .ec-line2, .ec-line3, .ec-line4 {
@@ -163,4 +185,18 @@ a:visited {
   background-position: $bg-position;
   background-size: $bg-size;
   @include transition(0.4s);
+}
+
+/* social icons */
+
+.ec-socIcons {
+  margin-right: 10px;
+  margin-top: 25px;
+  @include transition(0.3s);
+}
+
+.ec-socIcons:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  @include transition(0.3s);
 }
