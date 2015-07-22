@@ -5,7 +5,7 @@
 }
 /* line 12, sass/style.scss */
 body {
-  padding-top: 60px;
+  padding-top: 40px;
   padding-bottom: 40px;
 }
 
@@ -263,4 +263,8 @@ a:active {
   -moz-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
+}
+
+.ec-hrline {
+     border-top: 1px solid transparent;
 }
